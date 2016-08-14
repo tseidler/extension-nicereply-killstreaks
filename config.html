@@ -13,18 +13,23 @@
       </div>
       <div class="setting">
         <label for="input_team">Team</label>
-        <input type="text" id="input_team">
+        <select id="input_team">
+          <option value="all">All</option>
+        </select>
       </div>
       <div class="setting">
         <label for="input_startgame">Start game</label>
-        <input type="datetime-local" id="input_datetime">
+        <input type="datetime-local" id="input_datetime" step="1">
       </div>
       <div class="setting">
         <label for="input_theme">Theme</label>
-        <input type="text" id="input_theme">
+        <select id="input_theme">
+        </select>
       </div>
 
-      <button type="submit" id="start_game">Start Game</button>
+      <div class="submitContainer">
+        <button type="submit" id="start_game">Start Game</button>
+      </div>
     </form>
 
     <script type="text/javascript" src="js/popup_config.js"></script>
