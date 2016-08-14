@@ -6,6 +6,27 @@
   </head>
   <body>
     <h1>Bork! Bork! Bork!</h1>
+    <form>
+      <div class="setting">
+        <label for="input_apikey">API key</label>
+        <input type="password" id="input_apikey">
+      </div>
+      <div class="setting">
+        <label for="input_team">Team</label>
+        <input type="text" id="input_team">
+      </div>
+      <div class="setting">
+        <label for="input_startgame">Start game</label>
+        <input type="datetime-local" id="input_datetime">
+      </div>
+      <div class="setting">
+        <label for="input_theme">Theme</label>
+        <input type="text" id="input_theme">
+      </div>
+
+      <button type="submit" id="start_game">Start Game</button>
+    </form>
+
     <script type="text/javascript" src="js/popup_config.js"></script>
   </body>
 </html>
