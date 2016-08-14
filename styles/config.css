@@ -1,3 +1,27 @@
 body {
-  width: 300px;
+  width: 600px;
+}
+
+.setting {
+  padding: 5px;
+}
+
+.setting:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.setting label {
+  float: left;
+  display: inline-block;
+  width: 40%;
+}
+
+.setting input {
+  float: right;
+  display: inline-block;
+  width: 50%;
+
+  box-sizing: border-box;
 }
